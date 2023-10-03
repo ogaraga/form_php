@@ -1,7 +1,7 @@
 <?php 
 if($_SERVER['REQUEST_METHOD']== 'POST'){
 
-$conn = new mysqli('https://firstphp.vercel.app', 'root', '', 'form register');
+$conn = new mysqli('localhost', 'root', '', 'form register');
 
 $name=$_POST['name'];
 $email=$_POST['email'];
